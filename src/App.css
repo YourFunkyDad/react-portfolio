@@ -34,6 +34,20 @@ nav {
   margin-left: 10px;
 }
 
+/* Gallery */
+.gallery img {
+  max-width: 400px;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+
+.bigGallery {
+  margin-left: 200px;
+  max-width: 500px;
+}
 
 /* Contact Card */
 .contact {
