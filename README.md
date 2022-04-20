@@ -1,3 +1,8 @@
+# A Brief Start to Something Great
+Using the previous foundation of my Module 2 CSS Portfolio, I was able to implement React to create a Single Page Application. There is still lots of work to be done, such as the Projects Page, as well as lots of styling. 
+
+I hope this is a great showcase to what I will eventually be able to achieve in finishing this portfolio. I have lots of future ideas that I want to include, but for now, this is a good stepping stone. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
