@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
+import About from './pages/About';
 
 function App() {
   return (
@@ -14,12 +15,14 @@ function App() {
         <Link to='/'> Home </Link><br/>
         <Link to='/Projects'> Projects </Link><br/>
         <Link to='/Gallery'> Gallery </Link><br/>
+        <Link to='/About'>About Me</Link><br/>
         <Link to='/Contact'> Contact </Link>
       </nav>
       <Routes>
         <Route path='/' element={ <Home />} />
         <Route path='/Projects' element={ <Projects />} />
         <Route path='/Gallery' element={ <Gallery />} />
+        <Route path='/About' element={ <About />} />
         <Route path='/Contact' element={ <Contact />} />
         <Route path='*' element={ <ErrorPage />} />
       </Routes>
